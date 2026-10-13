@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"eat_glow_jam": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"components": {
+							"minecraft:item_model": "matcha:bedrock_buster"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_glow_jam"
+		]
+	],
+	"rewards": {
+		"function": "matcha:mechanics/bedrock_buster"
+	}
+}

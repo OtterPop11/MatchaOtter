@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"opened_door": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_block",
+					"blocks": "minecraft:oak_door",
+					"state": {
+						"open": "true"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"opened_door"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:environmental/check_if_entity_should_die"
+	}
+}
