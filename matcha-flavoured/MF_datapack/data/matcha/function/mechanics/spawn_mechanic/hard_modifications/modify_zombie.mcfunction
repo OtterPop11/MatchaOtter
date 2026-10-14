@@ -1,4 +1,4 @@
-attribute @s minecraft:movement_speed base set 0.38
+attribute @s minecraft:movement_speed base set 0.27
 attribute @s minecraft:max_health base set 15
 attribute @s minecraft:step_height base set 1
 attribute @s minecraft:attack_damage base set 5
